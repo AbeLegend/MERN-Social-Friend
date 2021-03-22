@@ -18,7 +18,7 @@ const App = () => {
     <Router>
       <Switch>
         <>
-          <div className="flex flex-col justify-between bg-green-300 h-screen">
+          <div className="flex flex-col justify-between h-screen">
             <Header />
             <Route exact path="/" component={Home} />
             <Route path="/group" component={Group} />

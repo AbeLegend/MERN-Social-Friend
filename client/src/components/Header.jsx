@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-blue-300 h-14 flex justify-between items-center px-2 sm:px-6">
+      <header className="bg-green-primary h-14 flex justify-between items-center px-2 sm:px-6 py-4">
         <div>Brand</div>
         <div className="mr-auto ml-6">{title}</div>
         <button
@@ -46,22 +46,22 @@ const Header = () => {
         <div className="hidden sm:block">
           <div className="flex space-x-6">
             <button
-              className={`flex items-center justify-center text-4xl px-2 hover:bg-blue-600 rounded-b-lg rounded-t-md ${
-                pathname === "/" ? "border-b-4 border-gray-200" : null
+              className={`flex items-center justify-center text-4xl px-2 hover:bg-green-secondary rounded-b-lg rounded-t-md ${
+                pathname === "/" ? "border-b-4 border-green-light" : null
               }`}
             >
               <HomeOutlined className="pb-1" onClick={() => setUrl("/")} />
             </button>
             <button
-              className={`flex items-center justify-center text-4xl px-2 hover:bg-blue-600  rounded-b-lg rounded-t-md ${
-                pathname === "/group" ? "border-b-4 border-gray-200" : null
+              className={`flex items-center justify-center text-4xl px-2 hover:bg-green-secondary  rounded-b-lg rounded-t-md ${
+                pathname === "/group" ? "border-b-4 border-green-light" : null
               }`}
             >
               <TeamOutlined className="pb-1" onClick={() => setUrl("/group")} />
             </button>
             <button
-              className={`flex items-center justify-center text-4xl px-2 hover:bg-blue-600  rounded-b-lg rounded-t-md ${
-                pathname === "/friend" ? "border-b-4 border-gray-200" : null
+              className={`flex items-center justify-center text-4xl px-2 hover:bg-green-secondary  rounded-b-lg rounded-t-md ${
+                pathname === "/friend" ? "border-b-4 border-green-light" : null
               }`}
             >
               <UserOutlined
@@ -70,8 +70,8 @@ const Header = () => {
               />
             </button>
             <button
-              className={`flex items-center justify-center text-4xl px-2 hover:bg-blue-600  rounded-b-lg rounded-t-md ${
-                pathname === "/setting" ? "border-b-4 border-gray-200" : null
+              className={`flex items-center justify-center text-4xl px-2 hover:bg-green-secondary  rounded-b-lg rounded-t-md ${
+                pathname === "/setting" ? "border-b-4 border-green-light" : null
               }`}
             >
               <SettingOutlined
@@ -83,32 +83,32 @@ const Header = () => {
         </div>
       </header>
       <div className={`sm:hidden ${menu !== true ? "hidden" : null}`}>
-        <div className="flex justify-around bg-blue-400 py-1">
+        <div className="flex justify-around bg-green-primary py-1">
           <button
-            className={`flex items-center justify-center text-4xl px-2 hover:bg-blue-600  rounded-b-lg rounded-t-md ${
-              pathname === "/" ? "border-b-4 border-gray-200" : null
+            className={`flex items-center justify-center text-4xl px-2 hover:bg-green-secondary  rounded-b-lg rounded-t-md ${
+              pathname === "/" ? "border-b-4 border-green-light" : null
             }`}
           >
             <HomeOutlined className="pb-1" onClick={() => setUrl("/")} />
           </button>
 
           <button
-            className={`flex items-center justify-center text-4xl px-2 hover:bg-blue-600  rounded-b-lg rounded-t-md ${
-              pathname === "/group" ? "border-b-4 border-gray-200" : null
+            className={`flex items-center justify-center text-4xl px-2 hover:bg-green-secondary  rounded-b-lg rounded-t-md ${
+              pathname === "/group" ? "border-b-4 border-green-light" : null
             }`}
           >
             <TeamOutlined className="pb-1" onClick={() => setUrl("/group")} />
           </button>
           <button
-            className={`flex items-center justify-center text-4xl px-2 hover:bg-blue-600  rounded-b-lg rounded-t-md ${
-              pathname === "/friend" ? "border-b-4 border-gray-200" : null
+            className={`flex items-center justify-center text-4xl px-2 hover:bg-green-secondary  rounded-b-lg rounded-t-md ${
+              pathname === "/friend" ? "border-b-4 border-green-light" : null
             }`}
           >
             <UserOutlined className="pb-1" onClick={() => setUrl("/friend")} />
           </button>
           <button
-            className={`flex items-center justify-center text-4xl px-2 hover:bg-blue-600  rounded-b-lg rounded-t-md ${
-              pathname === "/setting" ? "border-b-4 border-gray-200" : null
+            className={`flex items-center justify-center text-4xl px-2 hover:bg-green-secondary  rounded-b-lg rounded-t-md ${
+              pathname === "/setting" ? "border-b-4 border-green-light" : null
             }`}
           >
             <SettingOutlined

@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="bg-yellow-300 h-14">Footer</footer>
-    </div>
+    <footer className="bg-green-primary h-14 py-7 flex items-center justify-center text-white font-semibold">
+      <p>Copyright &copy; AbeLegend 2021</p>
+    </footer>
   );
 };
 

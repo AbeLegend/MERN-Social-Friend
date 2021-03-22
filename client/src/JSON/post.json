@@ -1,26 +1,135 @@
 [
   {
     "_id":"sd9d0as0d98a8njhas0d",
-    "userId":"as9d0as0d98a85897456",
-    "text":"Postingan Pertama",
-    "photo":"url",
+    "user":{
+        "_id":"as9d0as0d98a85897456",
+        "username":"AbeLegend",
+        "photo":"https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+      }
+    ,
+    "text":"Postingan pertama dengan image",
+    "image":"https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
     "postType":"friend",
     "hastag":[
-      "#post",
-      "#mern",
+      "post",
+      "mern",
       "social_friend"
     ],
     "tag":[
-      "as9d0as0d98a8d08as0d",
-      "asd456asd54as4d65asd",
-      "j7hg7rgg65875sf56sdf"
+      {
+        "_id":"as9d0as0d98a8d08as0d",
+        "username":"Bagia"
+      },
+      {
+        "_id":"asd456asd54as4d65asd",
+        "username":"Dandi"
+      }
     ],
-    "likeId":"as9d0a7yhf8a8d08as0d",
-    "commentId":[
-      "a987ga7yhf8a8d08as0d",
-      "a987g67yhf4as4d65asd",
-      "j987gr7yhf875sf56sdf"
+    "like":{
+      "like":["as9d0as0d98a8d08as0d","as9d0as0d98a85897456"],
+      "dislike":["asd456asd54as4d65asd"]
+    },
+    "comment":[
+      {
+        "_id":"a987ga7yhf8a8d08as0d",
+        "user":{
+          "_id":"asd456asd54as4d65asd",
+          "username":"Dandi",
+          "photo":"https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1276&q=80"
+        },
+        "comment":"Mantap dah bisa komentar, test komentar agak panjang aja kali yaa.."
+      },
+      {
+        "_id":"a987ga7yhf8a8d08as1d",
+        "user":{
+          "_id":"as9d0as0d98a8d08as0d",
+          "username":"Bagia",
+          "photo":"https://images.unsplash.com/photo-1455274111113-575d080ce8cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        },
+        "comment":"Mantap mantap broo.."
+      }
     ],
+    "createdAt":"12-01-2021",
+    "updatedAt":"12-01-2021"
+  },
+
+
+
+  {
+    "_id":"sd9d0as1d98a8njhas0d",
+    "user":{
+        "_id":"as9d0as0d98a85897456",
+        "username":"AbeLegend",
+        "photo":"https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+      }
+    ,
+    "text":"Postingan Kedua, testing text untuk postingan yang agak panjang gaiis... tapi gapake image",
+    "image":null,
+    "postType":"friend",
+    "hastag":[
+      "post",
+      "mern",
+      "social_friend"
+    ],
+    "tag":[
+      {
+        "_id":"as9d0as0d98a8d08as0d",
+        "username":"Bagia"
+      },
+      {
+        "_id":"asd456asd54as4d65asd",
+        "username":"Dandi"
+      }
+    ],
+    "like":{
+      "like":["as9d0as0d98a8d08as0d"],
+      "dislike":["asd456asd54as4d65asd"]
+    },
+    "comment":[
+      {
+        "_id":"a987ga7yhf8a8d08as0d",
+        "user":{
+          "_id":"asd456asd54as4d65asd",
+          "username":"Dandi",
+          "photo":"https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1276&q=80"
+        },
+        "comment":"Mantap dah bisa komentar, test komentar agak panjang aja kali yaa.."
+      },
+      {
+        "_id":"a987ga7yhf8a8d08as1d",
+        "user":{
+          "_id":"as9d0as0d98a8d08as0d",
+          "username":"Bagia",
+          "photo":"https://images.unsplash.com/photo-1455274111113-575d080ce8cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        },
+        "comment":"Mantap mantap broo.."
+      }
+    ],
+    "createdAt":"12-01-2021",
+    "updatedAt":"12-01-2021"
+  },
+
+
+
+
+  {
+    "_id":"sd9d0as2d98a8njhas0d",
+    "user":{
+        "_id":"as9d0as0d98a85897456",
+        "username":"AbeLegend",
+        "photo":"https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+      }
+    ,
+    "text":"Postingan ketiga ga ada gambar, ga ada hastag, ga ada tag, like 0 dislike 0, dan ga ada komentar",
+    "image":null,
+    "postType":"friend",
+    "hastag":[],
+    "tag":[],
+    "like":{
+      "like":[],
+      "dislike":[]
+    },
+    "comment":[],
     "createdAt":"12-01-2021",
     "updatedAt":"12-01-2021"
   }
