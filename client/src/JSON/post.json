@@ -1,0 +1,27 @@
+[
+  {
+    "_id":"sd9d0as0d98a8njhas0d",
+    "userId":"as9d0as0d98a85897456",
+    "text":"Postingan Pertama",
+    "photo":"url",
+    "postType":"friend",
+    "hastag":[
+      "#post",
+      "#mern",
+      "social_friend"
+    ],
+    "tag":[
+      "as9d0as0d98a8d08as0d",
+      "asd456asd54as4d65asd",
+      "j7hg7rgg65875sf56sdf"
+    ],
+    "likeId":"as9d0a7yhf8a8d08as0d",
+    "commentId":[
+      "a987ga7yhf8a8d08as0d",
+      "a987g67yhf4as4d65asd",
+      "j987gr7yhf875sf56sdf"
+    ],
+    "createdAt":"12-01-2021",
+    "updatedAt":"12-01-2021"
+  }
+]
