@@ -16,8 +16,8 @@ const Post = ({ post }) => {
           className="w-14 h-14 md:w-16 md:h-16 rounded-full object-cover object-center"
         />
         <h1 className="font-semibold ml-3 mr-auto">{post.user.username}</h1>
-        <button className="flex justify-center items-center p-1 text-xl hover:bg-red-light rounded-md">
-          <DeleteOutlined />
+        <button className="flex justify-center items-center p-1 text-xl rounded-md">
+          <DeleteOutlined className="hover:text-red-light" />
         </button>
       </div>
       {/* text */}
@@ -46,7 +46,7 @@ const Post = ({ post }) => {
       </p>
 
       <div className="flex justify-between items-center">
-        <button className="w-full border-2 border-gray-400 rounded-l-md flex items-center justify-center space-x-1 py-1 text-md sm:text-lg md:text-xl text-blue-secondary">
+        <button className="w-full border-2 border-gray-400 rounded-l-md flex items-center justify-center space-x-1 py-1 text-md sm:text-lg md:text-xl text-blue-secondary hover:bg-blue-primary hover:text-white">
           <LikeOutlined />
           <span>{post.like.like.length}</span>{" "}
         </button>
